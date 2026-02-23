@@ -12,6 +12,6 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=c:\\project\\esp32-s3-env\\build"
+    "--compile-commands-dir=c:\\project\\esp32_env\\build"
   ]
 }

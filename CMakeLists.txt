@@ -2,5 +2,8 @@
 # CMakeLists in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.16)
 
+# Set the SDK directory
+set(EXTRA_COMPONENT_DIRS "src")
+
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(esp32-s3-env)
+project(esp32_env)

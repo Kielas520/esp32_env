@@ -1,6 +1,5 @@
-#include <stdio.h>
+#include "helloworld.h"
 
-void app_main(void)
-{
-
+void app_main(void) {
+    helloworld();
 }

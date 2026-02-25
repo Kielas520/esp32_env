@@ -1,2 +1,5 @@
-idf_component_register(SRCS "helloworld.c"
+# 递归查找当前目录及所有子目录下名为 *.c 的文件，并将列表存入 SOURCES 变量
+file(GLOB_RECURSE SOURCES "*.c")
+
+idf_component_register(SRCS ${SOURCES}
                        INCLUDE_DIRS ".")
